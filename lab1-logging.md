@@ -18,4 +18,4 @@ Example events:
 - In an incident, I can go back and see exactly what actions were taken and by whom.
 
 ## Screenshot
-![CloudTrail Event History](images/cloudtrail-event.png)
+![CloudTrail Event History](cloudtrail-event.png)
