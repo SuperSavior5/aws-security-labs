@@ -1,12 +1,21 @@
-# Lab 1: Logging (CloudTrail)
+# Lab 1: Logging with CloudTrail
 
-## What I did
-- Turned on AWS CloudTrail.
-- Sent logs to an S3 bucket.
+## What I Did
+- Created a new CloudTrail trail (`SecurityPlusTrail`) that applies to all regions.
+- Sent logs to an S3 bucket (`securityplus-trail-123456`).
+- Verified that events were captured in Event History.
 
-## Why it matters
-- Proves who did what in the account.
-- Maps to Security+ “Audit logging & monitoring.”
+## What I Saw
+Example events:
+- CreateTrail (cloudtrail.amazonaws.com)
+- StartLogging (cloudtrail.amazonaws.com)
+- PutBucketEncryption (s3.amazonaws.com)
+- CreateBucket (s3.amazonaws.com)
+
+## Why This Matters (Security+ Tie-In)
+- This is **audit logging** → proves accountability (non-repudiation).
+- Maps to Security+ objectives around **monitoring, logging, and detection**.
+- In an incident, I can go back and see exactly what actions were taken and by whom.
 
 ## Screenshot
-(insert screenshot later)
+![CloudTrail Event History](images/cloudtrail-event.png)
