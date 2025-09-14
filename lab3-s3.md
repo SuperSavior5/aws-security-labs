@@ -17,5 +17,7 @@
 - Demonstrates **Defense in Depth**: even if a user tries to misconfigure, AWS blocks it.
 
 ## Screenshot
-![S3 Block Public Access](images/s3-hardening.png)
+## Screenshot
+![S3 Block Public Access](images/s3-block-public.png)
+![S3 File Encryption](images/s3-encryption.png)
 
