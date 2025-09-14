@@ -1,2 +1,2 @@
-# was-security-labs
+# aws-security-labs
 Learning AWS security fundamentals while studying for Security+
