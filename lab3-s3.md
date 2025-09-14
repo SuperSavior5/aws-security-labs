@@ -16,8 +16,6 @@
 - Prevents **data leakage** by blocking public access.
 - Demonstrates **Defense in Depth**: even if a user tries to misconfigure, AWS blocks it.
 
-## Screenshot
-## Screenshot
 ## Screenshots
 ![S3 Block Public Access](images/s3-block-public.png)
 ![S3 File Encryption](images/s3-encryption.png)
