@@ -13,7 +13,7 @@ Example events:
 - CreateBucket (s3.amazonaws.com)
 
 ## Why This Matters (Security+ Tie-In)
-- This is **audit logging** → proves accountability  (non-repudiation).
+- This is **audit logging** → proves accountability (non-repudiation).
 - Maps to Security+ objectives around **monitoring, logging, and detection**.
 - In an incident, I can go back and see exactly what actions were taken and by whom.
 
