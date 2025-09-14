@@ -18,6 +18,7 @@
 
 ## Screenshot
 ## Screenshot
+## Screenshots
 ![S3 Block Public Access](images/s3-block-public.png)
 ![S3 File Encryption](images/s3-encryption.png)
 
